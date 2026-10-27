@@ -1,7 +1,0 @@
-{
-  "build": {
-    "development": { "developmentClient": true, "distribution": "internal", "env": { "APP_VARIANT": "development" } },
-    "staging": { "distribution": "internal", "env": { "APP_VARIANT": "staging" } },
-    "production": { "autoIncrement": true, "env": { "APP_VARIANT": "production" } }
-  }
-}
